@@ -171,7 +171,7 @@ Create your UsersController:
 
 Pretty straightforward. One thing to note here is that there is nothing going on with the sessions.
 
-So how does Authlogic log users in after registration? How does authlogic know to update a user's session after they reset their password? This is one of the great things about Authlogic, because the session logic is tucked away down in the model level we can interact with other models. So Authlogic automatically hooks into the related model (User) and does all of this for you. As with all features in Authlogic, if you do not want to use this, you can easily disable it. See Authlogic::ActsAsAuthentic::SessionMaintenance in the {documentation}[http://github.com/binarylogic/authlogic_example/blob/5819a13477797d758cb6871f475ed1c54bf8a3a7/app/controllers/application_controller.rb] for more info.
+So how does Authlogic log users in after registration? How does authlogic know to update a user's session after they reset their password? This is one of the great things about Authlogic, because the session logic is tucked away down in the model level we can interact with other models. So Authlogic automatically hooks into the related model (User) and does all of this for you. As with all features in Authlogic, if you do not want to use this, you can easily disable it. See Authlogic::ActsAsAuthentic::SessionMaintenance in the {documentation}[http://rdoc.info/projects/binarylogic/authlogic] for more info.
 
 === 9. Next Steps
 
